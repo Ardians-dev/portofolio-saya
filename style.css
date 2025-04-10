@@ -1,0 +1,179 @@
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 50px;
+    color: white;
+}
+
+nav h1:hover {
+    transform: rotate(-10deg);
+    transition: 0.5s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+nav ul li a:hover {
+    color:#ff6600;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header-content span {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: #ff6600;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.btn:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+.projects-container a {
+    text-decoration: none;
+    color: #222;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#services {
+    text-align: center;
+    padding: 50px 20px;
+    background: #333;
+    color: white;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    background: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+#contact a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 440px) {
+    nav {
+        padding: 5px 25px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-left: 2px;
+    }
+}

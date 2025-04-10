@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ardi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <h1>ArdiDev</h1>
+        <ul>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <img src="gambar/profil.jpg" alt="">
+            <br>
+            <br>
+            <span>Hai, <span id="typed"></span></span>
+            <p>Frontend Developer Pemula | HTML, CSS, Bootstrap & JS Dikit</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="projects-container">
+            <a href="https://web-lanpage-bisnis.vercel.app/">
+                <div class="project">
+                    <img src="gambar/Screenshot 2025-04-08 160650.png" alt="Project 1">
+                    <h3>Landing Page Bisnis</h3>
+                    <p>Website sederhana dan responsif untuk bisnis kecil.</p>
+                </div>
+            </a>
+            <a href="https://clon-netflix-seven.vercel.app/">
+                <div class="project">
+                    <img src="gambar/Screenshot 2025-04-08 194519.png" alt="Project 2">
+                    <h3>Clone Netflix Sign-in</h3>
+                    <p>Clone sign-in Netflix menggunakan HTML & CSS.</p>
+                </div>
+            </a>
+            <a href="https://landpage-produk.vercel.app/">
+                <div class="project">
+                    <img src="gambar/Screenshot 2025-04-09 175454.png" alt="Project 2">
+                    <h3>Landing Page Bisnis</h3>
+                    <p>website sederhana dan responsif untuk mengenalkan produk.</p>
+                </div>
+            </a>
+            <a href="https://ardians-web-blog.vercel.app/">
+                <div class="project">
+                    <img src="gambar/Screenshot 2025-04-09 212730.png" alt="Project 2">
+                    <h3>Web Blog</h3>
+                    <p>website sederhana dan responsif yang berisi artikelku.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Saya</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Landing Page</h3>
+                <p>Membuat landing page modern dan menarik.</p>
+            </div>
+            <div class="service">
+                <h3>Konversi Figma ke HTML</h3>
+                <p>Ubah desain jadi kode HTML & CSS yang responsif.</p>
+            </div>
+            <div class="service">
+                <h3>Perbaikan Website</h3>
+                <p>Edit dan optimasi tampilan website kamu.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <div class="section">
+            <form action="https://formspree.io/f/xyzellqk" method="POST">
+              <input type="text" placeholder="Nama">
+              <input type="email" placeholder="Email">
+              <textarea rows="5" placeholder="Pesan"></textarea>
+              <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+        <p>Email: <a href="mailto:ardiansyah25526@gmail.com">ardiansyah25526@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/6281392199694">+62 813-9219-9694</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Ardiansyah | Dibuat dengan ❤️🗿</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    new Typed("#typed", { strings: ["Saya Ardi"], typeSpeed: 90, backSpeed: 90, backDelay: 2000, loop: true });
+    </script>
+</body>
+</html>
